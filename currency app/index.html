@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Currency App by Taylan Bayrakli</h1>
+
+      <div class="box">
+        <input
+          type="number"
+          class="amount"
+          placeholder="Amount of currency.."
+        />
+        <select id="from">
+          <option selected>USD</option>
+          <option>EUR</option>
+          <option>GBP</option>
+          <option>JPY</option>
+          <option>WON</option>
+          <option>IDR</option>
+          <option>RUB</option>
+          <option>TRY</option>
+        </select>
+        <div class="arrow"><i>➡️</i></div>
+        <select id="to">
+          <option selected>TRY</option>
+          <option>USD</option>
+          <option>EUR</option>
+          <option>GBP</option>
+          <option>JPY</option>
+          <option>WON</option>
+          <option>IDR</option>
+          <option>RUB</option>
+        </select>
+        <input type="number" class="result" readonly />
+      </div>
+    </div>
+
+    <script src="currency.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

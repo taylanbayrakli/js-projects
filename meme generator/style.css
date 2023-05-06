@@ -1,0 +1,35 @@
+body{
+    background-color: #161515e8;
+    color: whitesmoke;
+}
+
+.meme-box {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+img {
+  height: 430px;
+  object-fit: cover;
+}
+
+.gen-btn {
+  cursor: pointer;
+  padding: 8px 20px;
+  border: 3px solid seagreen;
+  color: seagreen;
+  background: #000;
+  margin: 24px 0;
+  font-size: 20px;
+  transition: all 0.5s ease;
+}
+
+.gen-btn:hover {
+  padding: 5px 36px;
+  border: 5px solid seagreen;
+  letter-spacing: 3px;
+}
+
+.author {
+  margin: 8px;
+}

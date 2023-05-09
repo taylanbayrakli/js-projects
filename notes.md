@@ -1,4 +1,4 @@
-*** input arrows removing
+### input arrows removing
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
